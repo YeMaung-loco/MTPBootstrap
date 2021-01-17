@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Myanma Foreign Trade Bank</title>
+    <link rel="icon" href="../../assets/images/MFTB logo small.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <!--
+    =========================================================
+    * ArchitectUI HTML Theme Dashboard - v1.0.0
+    =========================================================
+    * Product Page: https://dashboardpack.com
+    * Copyright 2019 DashboardPack (https://dashboardpack.com)
+    * Licensed under MIT (https://github.com/DashboardPack/architectui-html-theme-free/blob/master/LICENSE)
+    =========================================================
+    * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+    -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../fontawesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/materialicons.css">
+    <link rel="stylesheet" href="../../assets/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src">
+                    <a href="Dashboard.html" class="logo-src"></a>
+                </div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-right">
+                    <!-- <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div> -->
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                             Welcome to Admin!<!-- <i class="nav-link-icon fa fa-user-circle"> </i> -->
+                            </a>
+                        </li>
+                       
+                            <!-- <ul class="dropdown-menu">
+                                <li class="header">Inbox</li>
+                                <li>
+                                   
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="inbox-transaction.html">
+                                                <i class="fa fa-exchange text-red"></i> You have 2 notifications in transaction.
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="inbox-information.html">
+                                                <i class="fa fa-info text-green"></i> You have 2 notifications in information.
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="inbox-transaction.html">View all</a></li>
+                            </ul> -->
+                        
+                        <li class="nav-item">
+                            <a href="../../Retail_Login.html" data-toggle="modal" data-target="#transactionPasswordModal">
+                                <i class="nav-link-icon material-icons">exit_to_app</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                <span class="btn-icon-wrapper">
+                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                </span>
+                    </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                           
+                            <li>
+                                <a href="#" class="mm-active">
+                                    <i class="material-icons">people_alt</i></i> User Management
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="CreateAccount.html" class="mm-active">
+                                            <i class="metismenu-icon">
+                                                </i>Create User
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="metismenu-icon">
+                                                </i>User List
+                                            <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="OfficeAccountList.html">
+                                                    <i class="metismenu-icon">
+                                                    </i>Office
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="DeliveryAccountList.html">
+                                                    <i class="metismenu-icon">
+                                                    </i>Delivery
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                           <li>
+                                <a href="#">
+                                    <i class="material-icons">tune</i></i>Setting
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="ChangeLoginPassword.html">
+                                            <i class="metismenu-icon">
+                                                </i>Change Login Password
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ChangeTransactionPassword.html">
+                                            <i class="metismenu-icon">
+                                                </i>Change Transaction Password
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="ChangeLanguage.html">
+                                            <i class="metismenu-icon">
+                                                </i>Change Language
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                           
+                            <li>
+                                <a href="../../Corporate_Login.html" data-toggle="modal" data-target="#transactionPasswordModal">
+                                    <i class="material-icons">exit_to_app</i>Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon"><i class="material-icons">people_alt</i>
+                                </div>
+                                <div>Office Account List</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <table class="table table-bordered table-striped w-100" id="transferTable">
+                            <thead>
+                                <tr class="text-white">
+                                    <th width="6%" class="text-center">No</th>
+                                    <th class="text-center">User Name</th>
+                                    <th class="text-center">Staff ID</th>
+                                    <th class="text-center">Department</th>
+                                    <th class="text-center">Position</th>
+                                    <th class="text-center">Created Date</th>
+                                    <th width="7%" class="text-center">Status</th>
+                                    <th width="7%" class="text-center">Edit</th>
+                                    <th width="7%" class="text-center">Delete</th>
+                                    <th width="7%" class="text-center">View Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-right">1</td>
+                                    <td class="text-right">Ye Maung</td>
+                                    <td class="text-right">MTP001</td>
+                                    <td class="text-right">Mandalay</td>
+                                    <td class="text-center">Office</td>
+                                    <td class="text-center">20-06-2020</td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-unlock pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href=""><i class="fas fa-user-edit pending"></i></a>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-trash-alt pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href="OfficeAccountDetail.html">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-right">2</td>
+                                    <td class="text-right">Phyoe Maung</td>
+                                    <td class="text-right">MTP002</td>
+                                    <td class="text-right">Mandalay</td>
+                                    <td class="text-center">Office</td>
+                                    <td class="text-center">23-06-2020</td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-unlock pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href=""><i class="fas fa-user-edit pending"></i></a>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-trash-alt pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href="OfficeAccountDetail.html">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-right">3</td>
+                                    <td class="text-right">Thet Maung</td>
+                                    <td class="text-right">MTP003</td>
+                                    <td class="text-right">Mandalay</td>
+                                    <td class="text-center">Office</td>
+                                    <td class="text-center">26-06-2020</td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-unlock pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href=""><i class="fas fa-user-edit pending"></i></a>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <i class="fas fa-trash-alt pending"></i>
+                                    </td>
+                                    <td class="text-center primary-color">
+                                        <a href="OfficeAccountDetail.html">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="transactionPasswordModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="background: #56a3f0;">
+                    <h5 class="modal-title" id="transactionPasswordModalLongTitle" style="color: white;font-weight: 500;text-align: center;">Logout</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12 mb-2">
+                        <div class="form-group row">
+                            <label for="interestRate" class="col-sm-12 text-center col-form-label">Are you sure you want to logout?</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a href="../../Retail_Login.html" class="btn btn-primary">OK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../assets/scripts/main.js"></script>
+    <script type="text/javascript" src="../../fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="../../assets/scripts/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../../assets/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
